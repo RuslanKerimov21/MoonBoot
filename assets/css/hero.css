@@ -60,11 +60,12 @@
     display: none;
 }
 
-.hero__exchanges-list {
-    gap: 0 32px;
-    width: 417px;
-    display: flex;
-    overflow: hidden;
+.slider__exchanges {
+    width: 588px;
+}
+
+.slider__exchanges .swiper-wrapper {
+    transition-timing-function: linear !important;
 }
 
 .hero__md {

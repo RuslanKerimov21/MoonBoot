@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoonBoot</title>
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -70,20 +71,22 @@
                     <p class="hero__descr">
                         Trusted by fast-growing companies around the world:
                     </p>
-                    <ul class="hero__exchanges-list">
-                        <li class="exchanges__list-item">
-                            <img src="./assets/icons/binance.svg" alt="binance">
-                        </li>
-                        <li class="exchanges__list-item">
-                            <img src="./assets/icons/by_bit.svg" alt="by_bit">
-                        </li>
-                        <li class="exchanges__list-item">
-                            <img src="./assets/icons/htx.svg" alt="htx">
-                        </li>
-                        <li class="exchanges__list-item">
-                            <img src="./assets/icons/gate_io.svg" alt="gate_io">
-                        </li>
-                    </ul>
+                    <div class="swiper slider__exchanges">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="./assets/icons/binance.svg" alt="binance">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="./assets/icons/by_bit.svg" alt="by_bit">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="./assets/icons/htx.svg" alt="htx">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="./assets/icons/gate_io.svg" alt="gate_io">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="hero__md">
                     <img src="./assets/img/hero_md.png" alt="hero_md">
@@ -216,5 +219,20 @@
         </div>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script defer>
+    new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 4,
+        spaceBetween: 10,
+        speed: 4000,
+        centeredSlides: true,
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false,
+        },
+    });
+</script>
 
 </html>
