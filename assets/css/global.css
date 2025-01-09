@@ -1,0 +1,51 @@
+html,
+body {
+    box-sizing: border-box;
+    font-family: "Inter", serif
+}
+
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+ul,
+li,
+a,
+h1,
+p,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    font-family: "Inter", serif;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}

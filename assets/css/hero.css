@@ -1,0 +1,122 @@
+.hero {
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/hero_bg.png');
+    background-position: bottom -229px right 50%;
+    border-bottom: 1px solid #F0F1EF;
+}
+
+.hero__inner {
+    padding: 56px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.hero__top {
+    display: flex;
+    margin-bottom: 56px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.hero .tag {
+    margin-bottom: 16px;
+}
+
+.hero__title {
+    width: 750px;
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: "Funnel Display", serif;
+}
+
+.hero__text {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.hero__descr {
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: #B3B5AE;
+}
+
+
+.hero__button-group {
+    gap: 8px 0;
+    display: flex;
+    margin-bottom: 48px;
+    flex-direction: column;
+}
+
+.hero__button-group .button__dark {
+    display: none;
+}
+
+.hero__exchanges-list {
+    gap: 0 32px;
+    width: 417px;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero__md {
+    /* height: 249px; */
+    /* padding: 16px;
+    display: block;
+    height: auto;
+    background: #fff;
+    border-radius: 37px 37px 0 0; */
+    position: relative;
+}
+
+.hero__md::before {
+    right: 0;
+    width: 100%;
+    bottom: -75px;
+    height: 79px;
+    position: absolute;
+    background: #fff;
+    content: "";
+}
+
+.hero__md img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+
+@media(max-width: 690px) {
+    .hero__inner {
+        padding: 0;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        width: fit-content;
+    }
+
+    .hero__button-group {
+        min-width: 219px;
+    }
+
+    .hero__button-group .button {
+        width: 100%;
+    }
+
+    .hero__button-group .button__dark {
+        display: flex;
+    }
+
+    .hero__exchanges-list {
+        width: fit-content;
+    }
+}

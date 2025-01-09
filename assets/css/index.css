@@ -1,0 +1,90 @@
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./footer.css');
+@import url('./global.css');
+@import url('./header.css');
+@import url('./what.is.css');
+@import url('./cooperation.css');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1200px;
+}
+
+.button {
+    gap: 0 8px;
+    font-size: 14px;
+    width: fit-content;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.button__dark {
+    color: #fff;
+    background: #2C2B2B;
+}
+
+.button__green {
+    color: #fff;
+    background: #37B076;
+}
+
+.section__title {
+    color: #8D8B8B;
+    font-size: 36px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+.section__title span {
+    color: #1B1818;
+}
+
+.section__descr {
+    gap: 8px 0;
+    display: flex;
+    max-width: 345px;
+    flex-direction: column;
+}
+
+.section__descr p {
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.tag {
+    width: fit-content;
+    gap: 0 6px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 100px;
+    justify-content: center;
+    border: 1px solid #F0F1EF;
+}
+
+.hero .tag {
+    margin-bottom: 16px;
+}
+
+.tag span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media(max-width: 890px) {
+    .section__title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .section__descr {
+        max-width: 100%;
+    }
+}
