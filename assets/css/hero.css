@@ -68,12 +68,7 @@
 }
 
 .hero__md {
-    /* height: 249px; */
-    /* padding: 16px;
-    display: block;
-    height: auto;
-    background: #fff;
-    border-radius: 37px 37px 0 0; */
+    height: 249px;
     position: relative;
 }
 
@@ -81,7 +76,7 @@
     right: 0;
     width: 100%;
     bottom: -75px;
-    height: 79px;
+    height: 225px;
     position: absolute;
     background: #fff;
     content: "";
@@ -118,5 +113,9 @@
 
     .hero__exchanges-list {
         width: fit-content;
+    }
+
+    .hero__md img {
+        max-width: 192%;
     }
 }

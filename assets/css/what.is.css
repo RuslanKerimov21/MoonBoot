@@ -50,13 +50,13 @@
 
     .what__is-bottom {
         max-width: 100%;
-        margin-top: -10%;
-        height: 351px;
+        margin-top: -25%;
+        height: 532px;
     }
+}
 
-    .what__is-bottom img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+@media(max-width: 490px) {
+    .what__is-bottom {
+        margin-top: -39%;
     }
 }
