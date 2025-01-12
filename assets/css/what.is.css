@@ -1,4 +1,5 @@
 .what__is {
+    overflow: hidden;
     padding-top: 121px;
     border-bottom: 1px solid #F0F1EF;
 }
@@ -10,7 +11,7 @@
 }
 
 .what__is-top {
-    width: 660px;
+    max-width: 543px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -57,6 +58,7 @@
 
 @media(max-width: 490px) {
     .what__is-bottom {
+        height: 408px;
         margin-top: -39%;
     }
 }
