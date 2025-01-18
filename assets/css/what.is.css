@@ -1,6 +1,6 @@
 .what__is {
     overflow: hidden;
-    padding-top: 121px;
+    padding-top: 50px;
     border-bottom: 1px solid #F0F1EF;
 }
 
@@ -37,7 +37,7 @@
 
 @media(max-width: 690px) {
     .what__is {
-        padding-top: 72px;
+        padding-top: 30px;
     }
 
     .what__is .container {

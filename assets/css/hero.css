@@ -96,6 +96,7 @@
 .hero__md {
     height: 249px;
     position: relative;
+    left: -10px;
 }
 
 .hero__md::before {
@@ -111,7 +112,7 @@
 .hero__md img {
     height: auto;
     display: block;
-    max-width: 100%;
+    max-width: calc( 100% + 10px);
     position: relative;
 }
 

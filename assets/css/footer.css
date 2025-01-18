@@ -1,5 +1,5 @@
 .footer {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .footer .container {
@@ -40,6 +40,9 @@
 }
 
 @media(max-width: 690px) {
+    .footer{
+        padding-top: 30px;
+    }
     .footer__inner {
         text-align: center;
         align-items: center;
@@ -47,7 +50,7 @@
     }
 
     .footer__top {
-        margin-bottom: 72px;
+        margin-bottom: 60px;
     }
 
     .footer__group img {
