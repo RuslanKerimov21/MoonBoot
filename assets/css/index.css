@@ -80,6 +80,17 @@
     font-weight: 500;
 }
 
+.view{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.7s opacity ease, 0.7s transform ease;
+}
+
+.view_active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 @media(max-width: 890px) {
     .section__title {
         font-size: 24px;
