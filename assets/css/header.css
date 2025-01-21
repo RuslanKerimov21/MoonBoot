@@ -19,6 +19,13 @@
     font-size: 14px;
 }
 
+
+.header__right {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
 @media(max-width: 690px) {
     .header {
         border-bottom: none;
