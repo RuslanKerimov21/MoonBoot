@@ -80,13 +80,13 @@
     font-weight: 500;
 }
 
-.view{
+.view {
     transform: translateY(50px);
     opacity: 0;
     transition: 0.7s opacity ease, 0.7s transform ease;
 }
 
-.view_active{
+.view_active {
     transform: translateY(0px);
     opacity: 1;
 }
@@ -99,5 +99,11 @@
 
     .section__descr {
         max-width: 100%;
+    }
+}
+
+@media(max-width: 690px) {
+    .main {
+        margin-top: 113px;
     }
 }

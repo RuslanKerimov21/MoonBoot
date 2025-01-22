@@ -28,10 +28,17 @@
 
 @media(max-width: 690px) {
     .header {
+        top: 0;
+        right: 0;
+        z-index: 3;
         border-bottom: none;
+        background: #fff;
+        position: fixed;
+        width: 100%;
     }
 
     .header__inner {
+        gap: 20px;
         padding: 40px 0;
         justify-content: center;
     }

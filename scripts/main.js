@@ -4,7 +4,8 @@ const ArrayCheckAnimation = Array(AnimationBlock.length).fill(false);
 const handleCheckVisibilityBlock = () => {
     for (let i = 0; i < AnimationBlock.length; i++) {
         const check = AnimationBlock[i].getBoundingClientRect();
-        if (check.top >= -100 && check.bottom <= (window.innerHeight + 100) && check.left >= 0 && check.right <= window.innerWidth) {
+
+        if (check.top < window.innerHeight && check.bottom > 0) {
             if (!ArrayCheckAnimation[i]) {
                 setTimeout(() => { AnimationBlock[i].classList.add('view_active') }, i <= 4 ? (i * 200) : (i * 50));
                 ArrayCheckAnimation[i] = true;
