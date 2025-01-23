@@ -1,6 +1,11 @@
 .header {
     border-bottom: 1px solid #F0F1EF;
-    background: #F9FCF552;
+    background: #FDFEFC;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
 }
 
 .header__inner {
@@ -28,13 +33,7 @@
 
 @media(max-width: 690px) {
     .header {
-        top: 0;
-        right: 0;
-        z-index: 3;
         border-bottom: none;
-        background: #fff;
-        position: fixed;
-        width: 100%;
     }
 
     .header__inner {

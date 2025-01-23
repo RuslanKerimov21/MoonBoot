@@ -7,6 +7,10 @@
 @import url('./cooperation.css');
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.main {
+    margin-top: 113px;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 10px;
@@ -99,11 +103,5 @@
 
     .section__descr {
         max-width: 100%;
-    }
-}
-
-@media(max-width: 690px) {
-    .main {
-        margin-top: 113px;
     }
 }
