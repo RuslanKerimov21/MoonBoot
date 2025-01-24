@@ -55,7 +55,7 @@
 .section__descr {
     gap: 8px 0;
     display: flex;
-    max-width: 386px;
+    max-width: 413px;
     flex-direction: column;
 }
 
